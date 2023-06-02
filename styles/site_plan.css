@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lobster&family=Merriweather:ital@1&family=Rock+Salt&family=Satisfy&display=swap');
+
+
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #2C462C   ;
@@ -8,7 +11,7 @@
   --accent2-color: #193833;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon SC";
+  --heading-font: 'Merriweather', serif;
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
