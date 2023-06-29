@@ -1,7 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lobster&family=Merriweather:ital@1&family=Rock+Salt&family=Satisfy&display=swap');
 body {
-    background-color: #fff1c2;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #E9E9E9;
+    font-family: 'lato', 'helvetica', serif;
     
     margin: 0;
     padding: 0;
@@ -30,8 +30,7 @@ nav a{
     color: white;
     text-decoration: none;
     padding: 35px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
+    font-family: 'Merriweather', serif;
 }
 nav{
     display: flex;
@@ -41,13 +40,52 @@ nav a:hover {
     background-color: rgba(20,30,13, .7);
     color: white;
 }
-#faq-img{
-    width: 30%;
-    margin-top: 50px;
-    grid-column: 2/4;
-    border: 3px solid rgba(20,30,13, .7);
+
+.tank1{
+    padding-left: 10%;
+    width: 36%;
+    margin-left: 0 auto;
+}
+.tank2{
+    width: 40%;
+    padding-right: 10%;
+    margin-left: auto;
+    margin-right: 0;
+}
+main p{
+    text-align: left;
+}
+.block1, .block2, .block3{
+    margin: 0 center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+section{
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: 0 center;
+    text-align: left;
+}
+
+footer{
+    background-color: #2C462C;
+    color: black;
+    padding: 20px;
+    margin-top: 100px;
+    display: flex;
+    
+}
+footer a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 15px;
+    margin-right: 0;
+    margin-left: 0 auto;
+    color: black;
+
+}
+footer p {
+    font-size: 15PX;
+    text-align: left;
     
 } 
-.tank{
-    width: 200px;
-}
