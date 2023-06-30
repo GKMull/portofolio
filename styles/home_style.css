@@ -44,26 +44,21 @@ nav a:hover {
 .tank1{
     padding-left: 10%;
     width: 36%;
-    margin-left: 0 auto;
 }
 .tank2{
     width: 40%;
-    padding-right: 10%;
-    margin-left: auto;
-    margin-right: 0;
+    padding-left: 5%;
 }
 main p{
     text-align: left;
 }
 .block1, .block2, .block3{
-    margin: 0 center;
     padding-left: 15%;
     padding-right: 15%;
 }
 section{
     padding-left: 15%;
     padding-right: 15%;
-    margin: 0 center;
     text-align: left;
 }
 
@@ -79,8 +74,6 @@ footer a{
     text-decoration: none;
     padding: 15px;
     font-size: 15px;
-    margin-right: 0;
-    margin-left: 0 auto;
     color: black;
 
 }
