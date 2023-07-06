@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lobster&family=Merriweather:ital@1&family=Rock+Salt&family=Satisfy&display=swap');
+body {
+    background-color: #E9E9E9;
+    font-family: 'lato', 'helvetica', serif;
+    
+    margin: 0;
+    padding: 0;
+}
+#content {
+    max-width: 100%;
+    margin: 0 auto;
+    
+}
+header {
+    font-size: 22px;
+    background-color: #2C462C;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.logo{
+    width: 200px;
+}
+nav a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+    font-family: 'Merriweather', serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+} 
+nav a:hover {
+    background-color: rgba(20,30,13, .7);
+    color: white;
+}
+.tank{
+    width: 200px;
+}
